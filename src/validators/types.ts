@@ -14,3 +14,7 @@ export class ValidationResult {
             throw new Error(JSON.stringify(this.obj))
     }
 }
+
+export interface ValidationOptions {
+    skipUndefined: boolean;
+}

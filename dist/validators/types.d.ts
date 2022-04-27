@@ -7,3 +7,6 @@ export declare class ValidationResult {
     constructor(obj: any);
     raiseError(): void;
 }
+export interface ValidationOptions {
+    skipUndefined: boolean;
+}
